@@ -1,0 +1,65 @@
+/* Experience Page */
+.experience-page {
+  max-width: 900px;
+  margin: 120px auto;
+  padding: 40px;
+  background: rgba(0,0,0,0.85);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.1);
+  color: white;
+}
+
+.experience-page h1 {
+  text-align: center;
+  margin-bottom: 2em;
+  font-size: 32px;
+}
+
+.exp-card {
+  padding: 20px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.15);
+  margin-bottom: 20px;
+  transition: 0.3s ease;
+}
+
+.exp-card:hover {
+  background: rgba(0,0,0,0.7);
+  border-color: teal;
+  box-shadow: 0 0 20px teal;
+}
+
+.exp-card h2 {
+  color: teal;
+  font-size: 24px;
+}
+
+.exp-company {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.exp-card p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .experience-page {
+    padding: 20px;
+    margin: 80px auto;
+  }
+
+  .exp-card h2 {
+    font-size: 20px;
+  }
+
+  .exp-card p {
+    font-size: 16px;
+  }
+}
